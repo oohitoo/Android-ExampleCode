@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    tools:context="com.example.a13110091.testweb.MainActivity">
+
+
+    <Button
+        android:id="@+id/From"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/borad"
+        android:layout_alignStart="@+id/borad"
+        android:text="운동법"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.681" />
+
+    <Button
+        android:id="@+id/borad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/managementButton"
+        android:layout_alignStart="@+id/managementButton"
+        android:text="게시판"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802" />
+
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.562" />
+
+    <Button
+        android:id="@+id/managementButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="회원관리"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.918" />
+
+
+
+
+
+
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="0px"-->
+        <!--android:layout_height="445dp"-->
+        <!--tools:layout_editor_absoluteX="3dp"-->
+        <!--tools:layout_editor_absoluteY="2dp">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/welcomeMessage"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:text="TextView"-->
+            <!--android:textAppearance="@style/TextAppearance.AppCompat.Display1"-->
+            <!--tools:layout_editor_absoluteX="16dp"-->
+            <!--tools:layout_editor_absoluteY="16dp" />-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/textView2"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_alignParentStart="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_below="@+id/welcomeMessage"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="아이디"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textAppearance="@style/TextAppearance.AppCompat.Headline"&ndash;&gt;-->
+            <!--&lt;!&ndash;tools:layout_editor_absoluteX="16dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;tools:layout_editor_absoluteY="57dp" />&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/idText"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_alignParentStart="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_below="@+id/textView2"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="TextView"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textAppearance="@style/TextAppearance.AppCompat.Display1"&ndash;&gt;-->
+            <!--&lt;!&ndash;tools:layout_editor_absoluteX="16dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;tools:layout_editor_absoluteY="102dp" />&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/textView4"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_alignParentStart="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_below="@+id/idText"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="비밀번호"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textAppearance="@style/TextAppearance.AppCompat.Headline"&ndash;&gt;-->
+            <!--&lt;!&ndash;tools:layout_editor_absoluteX="16dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;tools:layout_editor_absoluteY="141dp" />&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/passwordText"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_alignParentStart="true"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_below="@+id/textView4"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="TextView"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textAppearance="@style/TextAppearance.AppCompat.Display1"&ndash;&gt;-->
+            <!--&lt;!&ndash;tools:layout_editor_absoluteX="16dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;tools:layout_editor_absoluteY="183dp" />&ndash;&gt;-->
+
+        <!--<Button-->
+            <!--android:id="@+id/managementButton"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:text="회원관리" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/From"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_above="@+id/Fragment"-->
+            <!--android:layout_alignStart="@+id/Fragment"-->
+            <!--android:text="운동법" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/Fragment"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_above="@+id/managementButton"-->
+            <!--android:layout_alignStart="@+id/managementButton"-->
+            <!--android:text="그래프 현황" />-->
+
+    <!--</RelativeLayout>-->
+</android.support.constraint.ConstraintLayout>

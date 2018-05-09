@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a13110091.testweb.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="498dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <EditText
+            android:id="@+id/idText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="아이디"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <EditText
+            android:id="@+id/passwordText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="비밀번호"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="69dp" />
+
+        <EditText
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="이름"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="132dp" />
+
+        <EditText
+            android:id="@+id/ageText"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="나이"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="190dp" />
+
+        <!--<EditText-->
+            <!--android:id="@+id/sexText"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:ems="10"-->
+            <!--android:hint="성별"-->
+            <!--android:inputType="textPersonName" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/weightText"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:ems="10"-->
+            <!--android:hint="몸무게"-->
+            <!--android:inputType="textPersonName" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/heightText"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:ems="10"-->
+            <!--android:hint="키"-->
+            <!--android:inputType="textPersonName" />-->
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:text="회원가입"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="258dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
