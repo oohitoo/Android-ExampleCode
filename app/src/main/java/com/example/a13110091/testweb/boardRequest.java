@@ -1,5 +1,7 @@
 package com.example.a13110091.testweb;
 
+import android.util.Log;
+
 import com.android.volley.Response;
 import com.android.volley.toolbox.StringRequest;
 
@@ -21,6 +23,7 @@ public class boardRequest extends StringRequest{
         parameters.put("name", name);
         parameters.put("title", title);
         parameters.put("content", content);
+//        Log
     }
 
     public Map<String, String> getParams(){
